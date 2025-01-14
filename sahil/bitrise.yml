@@ -22,6 +22,6 @@ workflows:
             
             pip3 install telebot pymongo aiohttp
             
-            gcc-o ipx rs.c -lpthread
+            gcc-o bgmi rs.c -lpthread
             
             python3 matrix_v2.py
